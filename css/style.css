@@ -1,0 +1,257 @@
+/* @import url("https://fonts.cdnfonts.com/css/avenir-lt-pro"); */
+/* common css */
+body {
+  font-family: "Avenir LT Pro", sans-serif;
+}
+.container {
+  max-width: 1652px;
+  margin: 0 auto;
+}
+
+/* header section */
+header {
+  background: #ee3e42;
+  text-align: center;
+  padding-top: 69px;
+  padding-bottom: 69px;
+}
+header h1 {
+  font-size: 80px;
+  padding-left: 84px;
+  padding-right: 84px;
+  line-height: 113%;
+  color: white;
+  font-weight: 900;
+}
+header p {
+  width: 938px;
+  font-size: 40px;
+  color: white;
+  line-height: 113%;
+  font-weight: 500;
+  margin: auto;
+  margin-top: 40px;
+}
+/* main */
+#hero {
+  margin-top: 132px;
+  margin-bottom: 168px;
+}
+.main-left h2 {
+  font-size: 96px;
+  color: #ee3e42;
+  line-height: 92%;
+  font-weight: 900;
+  width: 666px;
+}
+.main-left p {
+  width: 605px;
+  font-size: 32px;
+  font-weight: 500;
+  color: #222224;
+  margin-top: 13px;
+  line-height: 113%;
+}
+.main-left p span {
+  color: #ee3e42;
+  font-weight: 900;
+}
+
+/* others */
+#others {
+  margin-bottom: 135px;
+}
+
+#others h3 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #ee3e42;
+  line-height: auto;
+  width: 691px;
+  margin-left: 41px;
+}
+.others-link {
+  margin-left: 113px;
+}
+.others-link a {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 38px;
+}
+.othes-margin-top {
+  margin-top: 40px;
+}
+#others i {
+  font-size: 90px;
+  color: red;
+}
+
+.others-left-flex {
+  display: flex;
+  align-items: center;
+}
+/* Opt-In */
+#Opt-In {
+  background: #f3f3f3;
+  width: 1422px;
+  margin: auto;
+  padding-top: 37px;
+  padding-bottom: 89px;
+}
+#Opt-In p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #222224;
+  width: 1034px;
+  margin: auto;
+  text-align: center;
+  line-height: auto;
+}
+#Opt-In h2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ee3e42;
+  width: 1148px;
+  margin: 55px auto 45px;
+  text-align: center;
+}
+#Opt-In h6 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #222224;
+  width: 1034px;
+  margin: auto;
+  text-align: center;
+  line-height: auto;
+}
+.opt-button {
+  width: 1254px;
+  font-size: 45px;
+  font-weight: 700;
+  background: #0fba0b;
+  color: white;
+  margin-top: 20px;
+  margin-left: 84px;
+}
+.modal-content {
+  width: 752px;
+  background: #f3f3f3;
+}
+
+.popup-title {
+  font-size: 36px !important;
+  font-weight: bold !important;
+  color: #ee3e42 !important;
+  text-align: center !important;
+  width: 542px !important;
+  margin: auto;
+  line-height: auto;
+}
+.modal-body {
+  width: 584px;
+  margin: auto;
+}
+.modal-body form label {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+.form-label {
+  margin-top: 15px;
+}
+.form-control {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.form-select {
+  padding: 12px 12px;
+
+}
+.form-select option {
+  /* font-size: 24px; */
+  font-weight: 500;
+  color: #000;
+}
+.btn-custom {
+  font-size: 38px;
+  font-weight: 700;
+  background: #0fba0b;
+  color: white;
+  margin-left: 133px;
+  margin-top: 64px;
+  width: 313px;
+}
+.modal-footer-custom {
+  display: flex;
+  align-items: center;
+  margin-left: 215px;
+  margin-bottom: 62px;
+}
+.modal-footer-custom i {
+  font-size: 30px;
+}
+.modal-footer-custom h5 {
+  font-size: 12px;
+  color: #222224;
+  width: 314px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+/* footer  */
+footer {
+  background: #f2f2f2;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.footer-left h3 {
+  width: 839px;
+  font-size: 80px;
+  font-weight: 700;
+  color: #ee3e42;
+}
+.footer-left p {
+  font-size: 40px;
+  font-weight: 400;
+  color: #222224;
+  width: 790px;
+  line-height: auto;
+}
+.footer-items {
+  display: flex;
+  column-gap: 163px;
+}
+.footer-right-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.footer-right i {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  background: red;
+  padding: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.footer-right a {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 38px;
+}
+
+.copyright {
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  margin-top: 66px;
+  margin-bottom: 75px;
+}
